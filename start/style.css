@@ -1,0 +1,37 @@
+:root {
+    font-size:62.5%;
+    --font-size-s: 1.3rem;
+    --font-size-m: 1.6rem;
+    --font-size-l: 2rem;
+    --font-size-xl: 2.6rem;
+    --color-primary: #dadada;
+    --color-gray: #4a5057;
+    --color-design: #00ce79;
+    --color-dark: #090c0f;
+    --color-main: #11161c;
+    --gap-s: 1rem;
+    --gap-m: calc(var(--gap-s) * 2);
+    --gap-l: calc(var(--gap-s) * 3);
+    --gap-xl: calc(var(--gap-s) * 5);
+    --max-block-width: 1200px;
+    --font-standard: 'Poppins', sans-serif;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+body {
+    font-size:var(--font-size-m);
+    display:flex;
+    flex-direction:column;
+    background-color:var(--color-main);
+    color:var(--color-primary);
+    font-family:var(--font-standard)
+}
+    
+p, div, section, article {
+    line-height:1.8em
+}
